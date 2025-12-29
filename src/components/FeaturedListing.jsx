@@ -1,4 +1,4 @@
-import { Heart, CheckCircle, ArrowRight } from "lucide-react";
+import { Heart, CheckCircle, ArrowRight, BadgeCheck } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const listings = [
@@ -107,9 +107,9 @@ const FeaturedListings = () => {
                 </p>
 
                 {listing.verified && (
-            <div className="flex items-center gap-0.5 sm:gap-1 text-blue-900 text-sm">
-                <CheckCircle className="w-[15px] h-[15px] sm:w-4 sm:h-4 font-bold" />
-                <span className="font-bold text-blue-900 leading-none">Verified</span>
+            <div className="flex items-center gap-0.5 sm:gap-1 rounded-full bg-blue-500">
+                <BadgeCheck className="w-5 text-white h-5 sm:w-5 sm:h-5 font-bold" />
+               
             </div>
             )}
 

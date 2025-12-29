@@ -97,7 +97,6 @@ export default function PropertyListing() {
 
   return (
     <>
-    <Navbar/>
     <div className="max-w-7xl mt-5 mx-auto p-4">
       {/* Filter + Search */}
       <PropertyFilters
@@ -140,11 +139,11 @@ export default function PropertyListing() {
     e.preventDefault();   // stop the link from opening
     e.stopPropagation(); // stop the click from bubbling to the card
   }}
-  className="absolute top-3 right-3 bg-white/30 backdrop-blur-lg rounded-full p-2 shadow-sm 
+  className="absolute top-3 right-3 bg-white/90 backdrop-blur-lg rounded-full p-2 shadow-sm 
              hover:bg-white/60 transition-all duration-300 transform hover:scale-110"
 >
   <Heart
-    className="w-5 h-5 text-white transition-colors duration-300 hover:text-red-500"
+    className="w-5 h-5 text-gray-600 transition-colors duration-300 hover:text-red-500"
   />
 </button>
 

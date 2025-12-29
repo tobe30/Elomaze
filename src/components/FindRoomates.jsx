@@ -162,7 +162,6 @@ const FindRoommates = () => {
                     <GraduationCap className="w-4 h-4 text-purple-500 shrink-0" />
                     <span className="truncate">{person.school}</span>
                   </div>
-                  <span className="text-gray-400">•</span>
                   <div className="flex items-center gap-1.5">
                     <MapPin className="w-4 h-4 text-orange-500 shrink-0" />
                     <span className="truncate">{person.location}</span>

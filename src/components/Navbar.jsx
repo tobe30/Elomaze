@@ -20,7 +20,7 @@ const Navbar = () => {
     <>
       {/* ===== DESKTOP / TABLET NAVBAR ===== */}
       <div className="hidden md:flex w-full bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto flex items-center justify-between h-12 px-4 sm:px-6 lg:px-8 w-full">
+        <div className="max-w-7xl mx-auto flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8 w-full">
           
           {/* LEFT: Logo */}
           <div className="flex-shrink-0">
